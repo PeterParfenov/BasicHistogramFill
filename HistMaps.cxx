@@ -53,5 +53,6 @@ void HistMaps::WriteHistograms(TString outName)
     }
     outFile -> Close();
 }
+ClassImp(HistMaps);
 
 #endif

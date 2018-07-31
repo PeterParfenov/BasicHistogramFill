@@ -35,6 +35,7 @@ class HistMaps
     private:
         std::map<TString,TH1D*> fMapHists;
         TFile *outFile;
+    ClassDef(HistMaps,1);
 };
 
 #endif
